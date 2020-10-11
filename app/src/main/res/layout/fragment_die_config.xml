@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DieConfig">
+
+    <TextView
+        android:id="@+id/die_config_count_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/die_config_count" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/die_config_count_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="10dp"
+            android:text="@string/default_die_num"
+            android:textAlignment="textEnd" />
+
+        <SeekBar
+            android:id="@+id/die_config_count_bar"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:max="3"
+            android:progress="0" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/die_config_sides_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/die_config_sides" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/die_config_sides_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingEnd="10dp"
+            android:text="@string/default_die_sides"
+            android:textAlignment="textEnd" />
+
+        <SeekBar
+            android:id="@+id/die_config_sides_bar"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:max="28"
+            android:progress="4" />
+    </LinearLayout>
+
+</LinearLayout>

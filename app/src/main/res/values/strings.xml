@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+
+    // Default Values
+    <string name="dice_num_default">00</string>
+    <string name="default_die_num">1</string>
+    <string name="default_die_sides">6</string>
+
+    // Menu Names
+    <string name="settings_title">Settings</string>
+    <string name="about_title">About</string>
+
+    // Welcome Dialog
+    <string name="welcome_message">To roll the die, tap the grey square.
+    \nTo change the number of dice, or their number of sides, use the slider at the bottom of the screen.
+    \nTo see the about menu click the info icon in the top right.</string>
+    <string name="welcome_message_title">Welcome to Dice Roller!</string>
+    <string name="welcome_ok">Ok</string>
+    <string name="welcome_dismiss">Don\'t Show Again</string>
+
+    // About Dialog
+    <string name="about_ok">Done</string>
+    <string name="about_message">Developed by Oliver Gaskell in 2020
+    \n\nCheck out my GitHub github.com/ogaskell</string>
+    <string name="about_message_title">About this App</string>
+
+    // Die Config Dialog
+    <string name="die_config_done">Done</string>
+    <string name="die_config_title">Die Config</string>
+    <string name="die_config_count">Number of Die:</string>
+    <string name="die_config_sides">Sides on Die:</string>
+</resources>
